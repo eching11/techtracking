@@ -139,7 +139,7 @@ STATICFILES_DIRS = (
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-DISABLE_COLLECTSTATIC=1
+
 AUTH_USER_MODEL = 'checkout.User'
 LOGIN_REDIRECT_URL = '/'
 
